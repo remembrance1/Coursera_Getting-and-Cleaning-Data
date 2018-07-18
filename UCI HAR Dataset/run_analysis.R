@@ -1,3 +1,5 @@
+##-------Loading Dataset-------##
+
 #loads activity data sets from test and train within working directory
 
 testactivity  <- read.table("test/Y_test.txt" , header = FALSE)
