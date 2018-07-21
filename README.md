@@ -1,33 +1,21 @@
 Getting and Cleaning Data (Coursera). Course Project Codebook
 ================
 
-GitHub Documents
-----------------
+Introduction
+------------
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+his repo contains my course project to Coursera ["Getting And Cleaning Data"](https://www.coursera.org/learn/data-cleaning/home/welcome) course that is part of Data Science specialization.
 
-Including Code
---------------
+There is just one script called run\_analysis.R. It contains all functions and code to do the following:
 
-You can include R code in the document as follows:
+    1) Download UCI HAR zip file to data dir
+    2) Read data
+    3) Do some transformations
+    4) Write output data to a CSV file inside data/output dir
 
-``` r
-summary(cars)
-```
+The CodeBook.md explains it more detailed.
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+Open project from RStudio
+-------------------------
 
-Including Plots
----------------
-
-You can also embed plots, for example:
-
-![](README_files/figure-markdown_github/pressure-1.png)
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This repo also contains the RStudio project file Coursera\_Getting-and-Cleaning-Data.Rproj.
