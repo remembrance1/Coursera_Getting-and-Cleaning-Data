@@ -7,24 +7,19 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## GitHub Documents
+## Introduction
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+his repo contains my course project to Coursera ["Getting And Cleaning Data"](https://www.coursera.org/learn/data-cleaning/home/welcome) course that is part of Data Science specialization.
 
-## Including Code
+There is just one script called run_analysis.R. It contains all functions and code to do the following:
 
-You can include R code in the document as follows:
+    1) Download UCI HAR zip file to data dir
+    2) Read data
+    3) Do some transformations
+    4) Write output data to a CSV file inside data/output dir
 
-```{r cars}
-summary(cars)
-```
+The CodeBook.md explains it more detailed.
 
-## Including Plots
+## Open project from RStudio
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This repo also contains the RStudio project file Coursera_Getting-and-Cleaning-Data.Rproj.
